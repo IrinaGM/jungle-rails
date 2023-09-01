@@ -87,5 +87,15 @@
       font-weight: 700;
       text-align: center;
     }
+
+    :disabled {
+      width: 140px;
+      font-size: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+      background-color: rgba(199, 225, 255, 1);
+      color: white;
+      font-weight: 700;
+    }
   }
 }

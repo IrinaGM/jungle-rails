@@ -92,7 +92,7 @@ cat1.products.create!({
   As a defense mechanism the Bone Coneflower is poisonous for most creatures.
   They rely on self pollination to reproduce. Once pollinated, they grow fairly large, inedible fruits.",
   image: open_asset('plante_4.jpg'),
-  quantity: 8,
+  quantity: 0,
   price: 24.99
 })
 
