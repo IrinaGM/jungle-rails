@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+
   root to: 'products#index'
 
   resources :products, only: [:index, :show]
@@ -9,6 +10,8 @@ Rails.application.routes.draw do
     post   :add_item
     post   :remove_item
   end
+
+  resources :about, only: [:index]
 
   resources :orders, only: [:create, :show]
 
