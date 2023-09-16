@@ -58,6 +58,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'net-smtp', require: false
   gem 'rubocop', require: false
+  gem "cypress-rails"
+  gem 'database_cleaner-active_record'
 end
 
 group :development do
